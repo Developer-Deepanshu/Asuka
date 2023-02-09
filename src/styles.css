@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #184652;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%230b3d48' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .box {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .box img {
+    margin: -5px;
+  }
+
+  .spotify{
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%);
+    bottom: 0;
+    z-index: -1;
+    
+    
+  }
+  
+  .kuku {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    z-index: -1;
+  }
+
+  .kuku2 {
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%);
+    bottom: 0;
+    z-index: -2;
+  }
+  
+  .lid {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5.8em;
+  }
+  
+  .jump {
+    animation: 2s jump  forwards;
+  }
+  .jump2{
+    animation: 2s jump forwards;
+  }
+  
+  .move {
+    animation: 1s wiggle infinite linear;
+  }
+  
+  .rotating {
+    animation: 1s rotating;
+  }
+  
+  .rotated {
+    transform: rotate(145deg) translate(-70%, -170px);
+  }
+  
+  @keyframes wiggle {
+    10%,
+    90% {
+      transform: translate(-50%) translate3d(-1px, 0, 0);
+    }
+  
+    20%,
+    80% {
+      transform: translate(-50%) translate3d(2px, 0, 0);
+    }
+  
+    30%,
+    50%,
+    70% {
+      transform: translate(-50%) translate3d(-4px, 0, 0);
+    }
+  
+    40%,
+    60% {
+      transform: translate(-50%) translate3d(4px, 0, 0);
+    }
+  }
+  
+  @keyframes rotating {
+    0% {
+      transform: rotate(0deg) translate(-50%, 0);
+    }
+  
+    100% {
+      transform: rotate(145deg) translate(-70%, -170px);
+    }
+  }
+  
+  @keyframes jump {
+    from {
+      bottom: 0;
+    }
+    to {
+      bottom: 40em;
+    }
+  }
+  @keyframes jump2{
+    from{
+      bottom: 0;
+    }
+    to {
+      bottom:20em;
+    }
+  }
+  
