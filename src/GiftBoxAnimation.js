@@ -7,7 +7,7 @@ import kuku from "./images/jump-character.png";
 //import ConfettiGenerator from "./CanvasConfetti";
 import Confetti from "./confetti/Confetti";
 // import spotify from "./images/skype.png";
-// import kuku2 from "./images/jump-character.png";
+import kuku2 from "./images/jump-character.png";
 const init_state = {
   move: "move",
   jump: "",
@@ -34,9 +34,9 @@ export default function GiftBoxAnimation() {
       setTimeout(() => {
         setState({ jump: "jump" });
       }, 300);
-      // setTimeout(() => {
-      // setState({ jump2: "jump" });
-      // }, 300);
+      setTimeout(() => {
+      setState({ jump2: "jump2" });
+      }, 300);
       setTimeout(() => {
         setState({ rotated: "rotated" });
       }, 1000);
@@ -52,7 +52,7 @@ export default function GiftBoxAnimation() {
       <Confetti open={jump === "jump"} />
       <div className="img-container">
         <img className={`kuku ${jump}`} src={kuku} alt="kuku" />
-        {/* <img classname={`kuku2 ${jump}`} src={kuku2} alt="kuku2"/>  */}
+        <img classname={`kuku2 ${jump2}`} src={kuku2} alt="kuku2"/> 
         <button className="box" onClick={() => animate()}>
           <img src={box} alt="box" />
         </button>
