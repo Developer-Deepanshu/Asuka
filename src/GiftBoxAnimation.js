@@ -68,6 +68,8 @@ export default function GiftBoxAnimation() {
           alt="box-lid"
         />
       </div>
+    
     </div>
+
   );
 }
