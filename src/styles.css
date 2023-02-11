@@ -42,7 +42,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 50%;
+    bottom: 0;
     z-index: -1;
   }
 
@@ -50,8 +50,15 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 50%;
-    z-index: -2;
+    bottom: 0;
+    z-index: -1;
+  }
+  .kuku3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0;
+    z-index: -1;
   }
   
   .lid {
@@ -64,9 +71,13 @@ body {
   .jump {
     animation: 2s jump  forwards;
   }
-  .jump2{
-    animation: 2s jump forwards;
+  .jumpx {
+    animation: 2s jumpx forwards;
     animation-delay: 2s;
+  }
+  .jumpy {
+    animation: 2s jumpy forwards;
+    animation-delay: 4s;
   }
   
   .move {
@@ -122,12 +133,19 @@ body {
       bottom: 40em;
     }
   }
-  @keyframes jump2{
+  @keyframes jumpx {
     from{
       bottom: 0;
     }
     to {
-      bottom:20em;
+      bottom: 30em;
     }
   }
-  
+  @keyframes jumpy {
+    from{
+      bottom: 0;
+    }
+    to {
+      bottom: 20em;
+    }
+  }

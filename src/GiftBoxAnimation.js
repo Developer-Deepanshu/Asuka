@@ -8,10 +8,12 @@ import kuku from "./images/jump-character.png";
 import Confetti from "./confetti/Confetti";
 // import spotify from "./images/skype.png";
 import kuku2 from "./images/jump-character.png";
+import kuku3 from "./images/jump-character.png";
 const init_state = {
   move: "move",
   jump: "",
-  jump2: "",
+  jumpx: "",
+  jumpy: "",
   rotated: "",
   rotating: ""
 };
@@ -24,7 +26,7 @@ export default function GiftBoxAnimation() {
     init_state
   );
 
-  const { move, rotating, rotated, jump, jump2 } = state;
+  const { move, rotating, rotated, jump, jumpx ,jumpy } = state;
 
   function animate() {
     let isDone = rotated === "rotated" ? true : false;
@@ -35,8 +37,11 @@ export default function GiftBoxAnimation() {
         setState({ jump: "jump" });
       }, 300);
       setTimeout(() => {
-      setState({ jump2: "jump2" });
+      setState({ jumpx: "jumpx" });
       }, 300);
+      setTimeout(() => {
+        setState({ jumpy: "jumpy" });
+        }, 300);
       setTimeout(() => {
         setState({ rotated: "rotated" });
       }, 1000);
@@ -52,7 +57,8 @@ export default function GiftBoxAnimation() {
       <Confetti open={jump === "jump"} />
       <div className="img-container">
         <img className={`kuku ${jump}`} src={kuku} alt="kuku" />
-        <img classname={`kuku2 ${jump2}`} src={kuku2} alt="kuku2"/> 
+        <img className={`kuku2 ${jumpx}`} src={kuku2} alt="kuku2"/>
+        <img className={`kuku3 ${jumpy}`} src={kuku3} alt="kuku3"/> 
         <button className="box" onClick={() => animate()}>
           <img src={box} alt="box" />
         </button>
