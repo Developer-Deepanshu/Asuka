@@ -51,14 +51,23 @@ export default function GiftBoxAnimation() {
     let moving = move === "move" ? "" : "move";
     setState({ move: moving });
   }
+  function pop1() {
+    console.log("hello");
+  }
 
   return (
     <div className="App">
       <Confetti open={jump === "jump"} />
       <div className="img-container">
-        <img className={`kuku ${jump}`} src={kuku} alt="kuku" />
-        <img className={`kuku2 ${jumpx}`} src={kuku2} alt="kuku2"/>
-        <img className={`kuku3 ${jumpy}`} src={kuku3} alt="kuku3"/> 
+        <button className={`kuku ${jump}`} onClick={() => pop1()}>
+          <img src = {kuku} alt = "kuku"/> 
+        </button>
+        <button className={`kuku2 ${jumpx}`} onClick={() => pop1()}>
+          <img src = {kuku2} alt = "kuku2"/> 
+        </button>
+        <button className={`kuku3 ${jumpy}`} onClick={() => pop1()}>
+          <img src = {kuku3} alt = "kuku3"/> 
+        </button>
         <button className="box" onClick={() => animate()}>
           <img src={box} alt="box" />
         </button>

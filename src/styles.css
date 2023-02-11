@@ -40,25 +40,40 @@ body {
   
   .kuku {
     position: absolute;
+    border: 0;
     left: 50%;
+    margin: 0;
     transform: translate(-20%);
     bottom: 0;
     z-index: -1;
+    outline: none;
+    cursor:pointer;
+    background:transparent;
   }
 
   .kuku2 {
     position: absolute;
+    border: 0;
     left: 50%;
+    margin: 0;
     transform: translate(-20%);
     bottom: 0;
     z-index: -1;
+    outline: none;
+    cursor:pointer;
+    background:transparent;
   }
   .kuku3 {
     position: absolute;
+    border: 0;
     left: 50%;
+    margin: 0;
     transform: translate(-20%);
     bottom: 0;
     z-index: -1;
+    outline: none;
+    cursor:pointer;
+    background:transparent;
   }
   
   .lid {
