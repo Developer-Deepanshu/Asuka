@@ -41,7 +41,7 @@ body {
   .kuku {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-20%);
     bottom: 0;
     z-index: -1;
   }
@@ -49,14 +49,14 @@ body {
   .kuku2 {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-20%);
     bottom: 0;
     z-index: -1;
   }
   .kuku3 {
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translate(-20%);
     bottom: 0;
     z-index: -1;
   }
