@@ -22,6 +22,7 @@ body {
   bottom: 0;
   cursor: pointer;
   outline: none;
+  z-index: 20;
 }
 
 .box img {
@@ -176,6 +177,9 @@ body {
   background-color: #fff;
   padding-left: 12px;
   padding-right: 12px;
+  z-index: 1;
+  border-radius: 25px;
+  box-shadow: 0px 1px 20px 20px hsl(196deg 66% 46%);
 }
 .h_100vh {
   height: 100vh;
@@ -188,9 +192,65 @@ body {
 .bar {
   width: 0;
   position: absolute;
-  z-index: 1;
-  top: 0%;
+  z-index: 5;
   left: 0%;
+  bottom: 8%;
   overflow-x: hidden;
   transition: 0.5s ease-in;
+}
+.slick-prev:before,
+.slick-next:before {
+  line-height: 10;
+}
+.bg_box_2 {
+  min-width: 75%;
+  min-height: 70%;
+  background-color: #303231;
+  padding-left: 12px;
+  padding-right: 12px;
+  z-index: 1;
+  border-radius: 25px;
+  box-shadow: 0px 1px 20px 20px hsl(0, 0%, 0%);
+}
+/* popo_2 */
+.d_flex_1 {
+  display: flex;
+}
+.justify_center {
+  justify-content: center;
+}
+.w_200 {
+  width: 180px;
+}
+.pt_ {
+  padding-top: 20px;
+}
+.br_35 {
+  border-radius: 35px;
+}
+.flex_coloum {
+  flex-direction: column;
+}
+.align_center {
+  align-items: center;
+}
+.box_2 {
+  background-color: #446d6f;
+  padding: 30px;
+  border-radius: 20px;
+}
+.mt_50 {
+  margin-top: 120px;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.fs_20 {
+  font-style: 20px;
+}
+.text_green {
+  color: #49ff06;
+}
+.mt_84 {
+  margin-top: 84px;
 }

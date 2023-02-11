@@ -50,10 +50,19 @@ export default function GiftBoxAnimation() {
     }
     let moving = move === 'move' ? '' : 'move'
     setState({ move: moving })
+    document.getElementById('call_slider').style.width = '0%'
+    document.getElementById('pop_2id').style.width = '0%'
+    document.getElementById('pop_3id').style.width = '0%'
   }
 
   function pop1() {
     document.getElementById('call_slider').style.width = '100%'
+  }
+  function pop2() {
+    document.getElementById('pop_2id').style.width = '100%'
+  }
+  function pop3() {
+    document.getElementById('pop_3id').style.width = '100%'
   }
 
   return (
@@ -63,10 +72,10 @@ export default function GiftBoxAnimation() {
         <button className={`kuku ${jump}`} onClick={() => pop1()}>
           <img src={kuku} alt="kuku" />
         </button>
-        <button className={`kuku2 ${jumpx}`} onClick={() => pop1()}>
+        <button className={`kuku2 ${jumpx}`} onClick={() => pop2()}>
           <img src={kuku2} alt="kuku2" />
         </button>
-        <button className={`kuku3 ${jumpy}`} onClick={() => pop1()}>
+        <button className={`kuku3 ${jumpy}`} onClick={() => pop3()}>
           <img src={kuku3} alt="kuku3" />
         </button>
         <button className="box" onClick={() => animate()}>
