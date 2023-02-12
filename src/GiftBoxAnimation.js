@@ -9,6 +9,8 @@ import Confetti from './confetti/Confetti'
 // import spotify from "./images/skype.png";
 import kuku2 from './images/jump-character.png'
 import kuku3 from './images/jump-character.png'
+import rave from './images/rave.jpg'
+
 const init_state = {
   move: 'move',
   jump: '',
@@ -66,6 +68,7 @@ export default function GiftBoxAnimation() {
   }
 
   return (
+    
     <div className="App">
       <Confetti open={jump === 'jump'} />
       <div className="img-container">

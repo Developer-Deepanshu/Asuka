@@ -5,7 +5,7 @@ import Slider from 'react-slick'
 
 import computer from '../images/computer1.svg'
 import phone from '../images/phone.png'
-import close_btn from '../images/close_btn.png'
+// import close_btn from '../images/close_btn.png'
 
 export default function Slier() {
   var settings = {
@@ -50,36 +50,31 @@ export default function Slier() {
             <div className="mt-4 my-3 pb-2 height_394 ">
               <div className="p-4 hover_3">
                 <div className="d-flex justify-content-center py-5 px-2 height">
-                  <img src={computer} alt="computer" />
+                  
                 </div>
                 <h5 className="ff_gilroy fw-bold text_blue fs_xsm text-center color">
-                  Online Services
                 </h5>
                 <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color">
-                    Accept online payments on any channel via credit and debit
-                    card, mobile wallets, whatever your business model. Setup is
-                    quick and easy
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
+                  Kottons conent
                   </p>
-                  <p>11111111111111111111111111111111111111</p>
+                  <div id="kotton"className='credits'>
+                  <p >~ The credited person</p>
+                  </div>
                 </div>
               </div>
             </div>
             {/* 2 */}
-            <div className="mt-4 my-3 pb-2 height_394">
+            <div className="mt-4 my-3 pb-2 height_394 ">
               <div className="4 hover_3">
                 <div className="d-flex justify-content-center py-5 px-2 height">
-                  <img src={phone} alt="phone" />
                 </div>
-                <h5 className="ff_gilroy fw-bold text_blue fs_xsm text-center color mt-4">
-                  Mobile
-                </h5>
+
                 <div className="d-flex justify-content-center mb-2">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2">
-                    Placerat porttitor risus mi lacinia consectetur quisque
-                    massa, nam.
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2 content">
+                    Sunny's conent
                   </p>
-                  <p>2222222222222222222222222</p>
+                  <p>Person's Credits</p>
                 </div>
               </div>
             </div>
@@ -87,18 +82,12 @@ export default function Slier() {
             <div className="mt-4 my-3 pb-2 height_394 ">
               <div className="p-4 hover_3">
                 <div className="d-flex justify-content-center py-5 px-2 height">
-                  <img src={computer} alt="computer" />
                 </div>
-                <h5 className="ff_gilroy fw-bold text_blue fs_xsm text-center color">
-                  Online Services
-                </h5>
                 <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color">
-                    Accept online payments on any channel via credit and debit
-                    card, mobile wallets, whatever your business model. Setup is
-                    quick and easy
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
+                    Kranorus conent
                   </p>
-                  <p>333333333333333333333333333</p>
+                  <p>The persons credits</p>
                 </div>
               </div>
             </div>
@@ -106,17 +95,54 @@ export default function Slier() {
             <div className="mt-4 my-3 pb-2 height_394">
               <div className="4 hover_3">
                 <div className="d-flex justify-content-center py-5 px-2 height">
-                  <img src={phone} alt="phone" />
+
                 </div>
-                <h5 className="ff_gilroy fw-bold text_blue fs_xsm text-center color mt-4">
-                  Mobile
-                </h5>
                 <div className="d-flex justify-content-center mb-2">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2">
-                    Placerat porttitor risus mi lacinia consectetur quisque
-                    massa, nam.
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2 content">
+                    Castwigs content
                   </p>
-                  <p>444444444444444444</p>
+                  <p>The credits</p>
+                </div>
+              </div>
+              
+            </div>
+           {/* 5 */}
+            <div className="mt-4 my-3 pb-2 height_394 ">
+              <div className="p-4 hover_3">
+                <div className="d-flex justify-content-center py-5 px-2 height">
+                </div>
+                <div className="d-flex justify-content-center">
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
+                    Lykel's Content
+                  </p>
+                  <p>The persons credits</p>
+                </div>
+              </div>
+            </div>
+
+           {/* 5 */}
+           <div className="mt-4 my-3 pb-2 height_394 ">
+              <div className="p-4 hover_3">
+                <div className="d-flex justify-content-center py-5 px-2 height">
+                </div>
+                <div className="d-flex justify-content-center">
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
+                    Zeros's Content
+                  </p>
+                  <p>The persons credits</p>
+                </div>
+              </div>
+            </div>
+           {/* 5 */}
+           <div className="mt-4 my-3 pb-2 height_394 ">
+              <div className="p-4 hover_3">
+                <div className="d-flex justify-content-center py-5 px-2 height">
+                </div>
+                <div className="d-flex justify-content-center">
+                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
+                    My Content
+                  </p>
+                  <p>The persons credits</p>
                 </div>
               </div>
             </div>

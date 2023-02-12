@@ -174,13 +174,23 @@ body {
 .box_1 {
   width: 75%;
   min-height: 70%;
-  background-color: #fff;
+  background-color: #F8C8DC ;
   padding-left: 12px;
   padding-right: 12px;
   z-index: 1;
   border-radius: 25px;
-  box-shadow: 0px 1px 20px 20px hsl(196deg 66% 46%);
+  box-shadow: 0px 1px 20px 20px hsl(204, 22%, 5%);
 }
+.content{
+  font-family: Gaegu;
+  color: #303231;
+  font-size: 25px;
+}
+
+/* .credits{
+  position: absolute;
+  right: 10%;
+} */
 .h_100vh {
   height: 100vh;
 }
@@ -215,13 +225,26 @@ body {
 /* popo_2 */
 .d_flex_1 {
   display: flex;
+
 }
+.height{
+  height: 80vh;
+}
+.bimg{
+ background-image: url('./images/rave.jpg');
+
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .justify_center {
   justify-content: center;
 }
 .w_200 {
   width: 180px;
 }
+
 .pt_ {
   padding-top: 20px;
 }
@@ -234,9 +257,13 @@ body {
 .align_center {
   align-items: center;
 }
+.br_20{
+  border-radius: 20px;
+
+}
 .box_2 {
-  background-color: #446d6f;
-  padding: 30px;
+
+  padding: 0px;
   border-radius: 20px;
 }
 .mt_50 {
@@ -248,8 +275,9 @@ body {
 .fs_20 {
   font-style: 20px;
 }
-.text_green {
-  color: #49ff06;
+.text_color2 {
+  color:limegreen;
+  font-size: 30px;
 }
 .mt_84 {
   margin-top: 84px;
