@@ -14,6 +14,7 @@ export default function Slier() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -44,105 +45,21 @@ export default function Slier() {
   return (
     <section>
       <div id="call_slider" className="d_flex h_100vh bar ">
-        <div className="box_1">
+        <div className="box_1 p_0">
           <Slider {...settings}>
-            {/* 1 */}
-            <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="p-4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                  
-                </div>
-                <h5 className="ff_gilroy fw-bold text_blue fs_xsm text-center color">
-                </h5>
-                <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
-                  Kottons conent
-                  </p>
-                  <div id="kotton"className='credits'>
-                  <p >~ The credited person</p>
-                  </div>
+            <div className='h_100  bg_box_1'>
+              <div className="h_100 mx_10 d_flex_1">
+                <p className="content">Kottons conent Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fuga ratione dicta sint, iste eos natus recusandae doloribus nobis ipsam reprehenderit, nam repudiandae dignissimos molestias ipsa sapiente suscipit fugit magni. Architecto quod sit laborum, qui, praesentium a adipisci corporis sint blanditiis maiores possimus! Nobis eligendi culpa earum consectetur at velit asperiores provident, corrupti facere? Facilis nostrum labore veritatis ipsa minus, saepe nisi doloremque tempora aperiam maiores perspiciatis, laudantium odit suscipit harum eveniet recusandae impedit velit quidem accusantium voluptates? Corrupti adipisci dolores exercitationem? Ipsum dolore recusandae, fugiat quasi animi magnam nulla voluptate ut tenetur natus voluptas iure vitae velit laboriosam expedita laudantium molestias nemo pariatur earum minus quo sapiente</p>
+                <div className="credit align_end d_flex_end">
+                  <p className="text_end">~ The credited person</p>
                 </div>
               </div>
             </div>
-            {/* 2 */}
-            <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                </div>
-
-                <div className="d-flex justify-content-center mb-2">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2 content">
-                    Sunny's conent
-                  </p>
-                  <p>Person's Credits</p>
-                </div>
-              </div>
-            </div>
-            {/* 3 */}
-            <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="p-4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                </div>
-                <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
-                    Kranorus conent
-                  </p>
-                  <p>The persons credits</p>
-                </div>
-              </div>
-            </div>
-            {/* 4 */}
-            <div className="mt-4 my-3 pb-2 height_394">
-              <div className="4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-
-                </div>
-                <div className="d-flex justify-content-center mb-2">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-8 p-0 color pb-2 content">
-                    Castwigs content
-                  </p>
-                  <p>The credits</p>
-                </div>
-              </div>
-              
-            </div>
-           {/* 5 */}
-            <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="p-4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                </div>
-                <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
-                    Lykel's Content
-                  </p>
-                  <p>The persons credits</p>
-                </div>
-              </div>
-            </div>
-
-           {/* 5 */}
-           <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="p-4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                </div>
-                <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
-                    Zeros's Content
-                  </p>
-                  <p>The persons credits</p>
-                </div>
-              </div>
-            </div>
-           {/* 5 */}
-           <div className="mt-4 my-3 pb-2 height_394 ">
-              <div className="p-4 hover_3">
-                <div className="d-flex justify-content-center py-5 px-2 height">
-                </div>
-                <div className="d-flex justify-content-center">
-                  <p className="ff_gilroy fw-regular text_light_black fs_xsm text-center m-0 col-11 px-1 color content">
-                    My Content
-                  </p>
-                  <p>The persons credits</p>
+            <div className='h_100  bg_box_2'>
+              <div className="h_100 mx_10 d_flex_1">
+                <p className="content">Kottons conent Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque fuga ratione dicta sint, iste eos natus recusandae doloribus nobis ipsam reprehenderit, nam repudiandae dignissimos molestias ipsa sapiente suscipit fugit magni. Architecto quod sit laborum, qui, praesentium a adipisci corporis sint blanditiis maiores possimus! Nobis eligendi culpa earum consectetur at velit asperiores provident, corrupti facere? Facilis nostrum labore veritatis ipsa minus, saepe nisi doloremque tempora aperiam maiores perspiciatis, laudantium odit suscipit harum eveniet recusandae impedit velit quidem accusantium voluptates? Corrupti adipisci dolores exercitationem? Ipsum dolore recusandae, fugiat quasi animi magnam nulla voluptate ut tenetur natus voluptas iure vitae velit laboriosam expedita laudantium molestias nemo pariatur earum minus quo sapiente</p>
+                <div className="credit align_end d_flex_end">
+                  <p className="text_end">~ The credited person</p>
                 </div>
               </div>
             </div>
